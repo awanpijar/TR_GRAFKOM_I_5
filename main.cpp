@@ -355,6 +355,99 @@ void tampil(void)
     glVertex3f(80.0, -45.0, -35.0); //kiri atas
     glEnd();
 
+     // Atap Atas gedung
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(20.0,300.0,2.0);
+    glVertex3f(20.0,280.0,2.0);
+    glVertex3f(0.0,280.0,2.0);
+    glVertex3f(0.0,300.0,2.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(40.0,300.0,2.0);
+    glVertex3f(40.0,280.0,2.0);
+    glVertex3f(10.0,280.0,2.0);
+    glVertex3f(10.0,300.0,2.0);
+    glEnd();
+
+    glPushMatrix();
+    glTranslatef(0.0,-10.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(40.0,300.0,2.0);
+    glVertex3f(40.0,280.0,2.0);
+    glVertex3f(10.0,280.0,2.0);
+    glVertex3f(10.0,300.0,2.0);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,-30.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(40.0,300.0,2.0);
+    glVertex3f(40.0,280.0,2.0);
+    glVertex3f(10.0,280.0,2.0);
+    glVertex3f(10.0,300.0,2.0);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(20.0,-40.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(30.0,300.0,2.0);
+    glVertex3f(30.0,280.0,2.0);
+    glVertex3f(10.0,280.0,2.0);
+    glVertex3f(10.0,300.0,2.0);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-20.0,0.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(60.0,250.0,2.0);
+    glVertex3f(60.0,300.0,2.0);
+    glVertex3f(70.0,300.0,2.0);
+    glVertex3f(70.0,250.0,2.0);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-20.0,0.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(20.0,240.0,-3.0);
+    glVertex3f(20.0,300.0,-3.0);
+    glVertex3f(70.0,300.0,-3.0);
+    glVertex3f(70.0,240.0,-3.0);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-20.0,-100,15.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(70.0,400.0,-13.0);
+    glVertex3f(70.0,340.0,-13.0);
+    glVertex3f(70.0,340.0,-18.0);
+    glVertex3f(70.0,400.0,-18.0);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-70,-100,15.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(70.0,400.0,-13.0);
+    glVertex3f(70.0,200.0,-13.0);
+    glVertex3f(70.0,200.0,-18.0);
+    glVertex3f(70.0,400.0,-18.0);
+    glEnd();
+    glPopMatrix();
 
 
 

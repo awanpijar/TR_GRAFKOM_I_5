@@ -14,7 +14,7 @@ int main (int argc, char **argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(800, 600);
     glutInitWindowPosition(250, 150);
-    glutCreateWindow("Cekkkk");
+    glutCreateWindow("Hallo");
     init();
     glutDisplayFunc(tampil);
     glutKeyboardFunc(keyboard);

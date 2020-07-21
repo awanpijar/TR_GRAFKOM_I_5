@@ -14,7 +14,7 @@ int main (int argc, char **argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(800, 600);
     glutInitWindowPosition(250, 150);
-    glutCreateWindow("Awan Pijar Andika - 672018163");
+    glutCreateWindow("test");
     init();
     glutDisplayFunc(tampil);
     glutKeyboardFunc(keyboard);

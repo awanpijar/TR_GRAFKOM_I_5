@@ -564,7 +564,49 @@ void tampil(void)
     glEnd();
     glPopMatrix();
 
+    glPushMatrix();
+    glTranslatef(-27,52.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(10.0,200.0,10.5);
+    glVertex3f(10.0,190.0,10.5);
+    glVertex3f(44.0,190.0,10.5);
+    glVertex3f(44.0,200.0,10.5);
+    glEnd();
+    glPopMatrix();
 
+     glPushMatrix();
+    glTranslatef(-27,64.0,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(10.0,196.0,10.5);
+    glVertex3f(10.0,190.0,10.5);
+    glVertex3f(44.0,190.0,10.5);
+    glVertex3f(44.0,196.0,10.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(-27,52.0,-21.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(10.0,200.0,10.5);
+    glVertex3f(10.0,190.0,10.5);
+    glVertex3f(44.0,190.0,10.5);
+    glVertex3f(44.0,200.0,10.5);
+    glEnd();
+    glPopMatrix();
+
+     glPushMatrix();
+    glTranslatef(-27,64.0,-21.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(10.0,196.0,10.5);
+    glVertex3f(10.0,190.0,10.5);
+    glVertex3f(44.0,190.0,10.5);
+    glVertex3f(44.0,196.0,10.5);
+    glEnd();
+    glPopMatrix();
 
     glutSwapBuffers();
 }

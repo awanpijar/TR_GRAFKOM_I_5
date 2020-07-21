@@ -41,6 +41,121 @@ void tampil(void)
     else
     glClear(GL_COLOR_BUFFER_BIT);
 
+    float i;
+    for(i=0.0;i<=236.0;i+=10.0){
+    //jendela
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, 18.1);
+    glVertex3f(-22.0, 236.0, 18.1);
+    glVertex3f(-16.0, 236.0, 18.1);
+    glVertex3f(-16.0, 230.0, 18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(9.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, 18.1);
+    glVertex3f(-22.0, 236.0, 18.1);
+    glVertex3f(-16.0, 236.0, 18.1);
+    glVertex3f(-16.0, 230.0, 18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(18.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, 18.1);
+    glVertex3f(-22.0, 236.0, 18.1);
+    glVertex3f(-16.0, 236.0, 18.1);
+    glVertex3f(-16.0, 230.0, 18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(27.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, 18.1);
+    glVertex3f(-22.0, 236.0, 18.1);
+    glVertex3f(-16.0, 236.0, 18.1);
+    glVertex3f(-16.0, 230.0, 18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(36.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, 18.1);
+    glVertex3f(-22.0, 236.0, 18.1);
+    glVertex3f(-16.0, 236.0, 18.1);
+    glVertex3f(-16.0, 230.0, 18.1);
+    glEnd();
+    glPopMatrix();
+
+    //jendela
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, -18.1);
+    glVertex3f(-22.0, 236.0, -18.1);
+    glVertex3f(-16.0, 236.0, -18.1);
+    glVertex3f(-16.0, 230.0, -18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(9.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, -18.1);
+    glVertex3f(-22.0, 236.0, -18.1);
+    glVertex3f(-16.0, 236.0, -18.1);
+    glVertex3f(-16.0, 230.0, -18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(18.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, -18.1);
+    glVertex3f(-22.0, 236.0, -18.1);
+    glVertex3f(-16.0, 236.0, -18.1);
+    glVertex3f(-16.0, 230.0, -18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(27.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, -18.1);
+    glVertex3f(-22.0, 236.0, -18.1);
+    glVertex3f(-16.0, 236.0, -18.1);
+    glVertex3f(-16.0, 230.0, -18.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(36.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-22.0, 230.0, -18.1);
+    glVertex3f(-22.0, 236.0, -18.1);
+    glVertex3f(-16.0, 236.0, -18.1);
+    glVertex3f(-16.0, 230.0, -18.1);
+    glEnd();
+    glPopMatrix();
+    }
+
     //depan
     glBegin(GL_QUADS);
     glColor3f(12/255.0f,190/255.0f,187/255.0f);

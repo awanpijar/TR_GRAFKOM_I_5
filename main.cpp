@@ -154,6 +154,231 @@ void tampil(void)
     glVertex3f(-16.0, 230.0, -18.1);
     glEnd();
     glPopMatrix();
+
+    //Balkon depan kiri
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-47.0, 230.0, 2.1);
+    glVertex3f(-47.0, 236.0, 2.1);
+    glVertex3f(-28.0, 236.0, 16.4);
+    glVertex3f(-28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,2.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,1.0);
+    glVertex3f(-47.0, 230.0, 2.1);
+    glVertex3f(-47.0, 233.0, 2.1);
+    glVertex3f(-28.0, 233.0, 16.4);
+    glVertex3f(-28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,0.0);
+    glVertex3f(-47.0, 230.0, 2.1);
+    glVertex3f(-47.0, 230.0, 4.1);
+    glVertex3f(-28.0, 230.0, 18.4);
+    glVertex3f(-28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(-28.0, 233.0, 16.4);
+    glVertex3f(-28.0, 233.0, 18.4);
+    glVertex3f(-28.0, 230.0, 18.4);
+    glVertex3f(-28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(-47.0, 233.0, 2.1);
+    glVertex3f(-47.0, 233.0, 4.1);
+    glVertex3f(-47.0, 230.0, 4.1);
+    glVertex3f(-47.0, 230.0, 2.1);
+    glEnd();
+    glPopMatrix();
+
+    //Balkon depan kanan
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(47.0, 230.0, 2.1);
+    glVertex3f(47.0, 236.0, 2.1);
+    glVertex3f(28.0, 236.0, 16.4);
+    glVertex3f(28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,2.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,1.0);
+    glVertex3f(47.0, 230.0, 2.1);
+    glVertex3f(47.0, 233.0, 2.1);
+    glVertex3f(28.0, 233.0, 16.4);
+    glVertex3f(28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,0.0);
+    glVertex3f(47.0, 230.0, 2.1);
+    glVertex3f(47.0, 230.0, 4.1);
+    glVertex3f(28.0, 230.0, 18.4);
+    glVertex3f(28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(28.0, 233.0, 16.4);
+    glVertex3f(28.0, 233.0, 18.4);
+    glVertex3f(28.0, 230.0, 18.4);
+    glVertex3f(28.0, 230.0, 16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(47.0, 233.0, 2.1);
+    glVertex3f(47.0, 233.0, 4.1);
+    glVertex3f(47.0, 230.0, 4.1);
+    glVertex3f(47.0, 230.0, 2.1);
+    glEnd();
+    glPopMatrix();
+
+    //Balkon belakang kiri
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(-47.0, 230.0, -2.1);
+    glVertex3f(-47.0, 236.0, -2.1);
+    glVertex3f(-28.0, 236.0, -16.4);
+    glVertex3f(-28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,-2.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,1.0);
+    glVertex3f(-47.0, 230.0, -2.1);
+    glVertex3f(-47.0, 233.0, -2.1);
+    glVertex3f(-28.0, 233.0, -16.4);
+    glVertex3f(-28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,0.0);
+    glVertex3f(-47.0, 230.0, -2.1);
+    glVertex3f(-47.0, 230.0, -4.1);
+    glVertex3f(-28.0, 230.0, -18.4);
+    glVertex3f(-28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(-28.0, 233.0, -16.4);
+    glVertex3f(-28.0, 233.0, -18.4);
+    glVertex3f(-28.0, 230.0, -18.4);
+    glVertex3f(-28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(-47.0, 233.0, -2.1);
+    glVertex3f(-47.0, 233.0, -4.1);
+    glVertex3f(-47.0, 230.0, -4.1);
+    glVertex3f(-47.0, 230.0, -2.1);
+    glEnd();
+    glPopMatrix();
+
+    //Balkon belakang kanan
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(47.0, 230.0, -2.1);
+    glVertex3f(47.0, 236.0, -2.1);
+    glVertex3f(28.0, 236.0, -16.4);
+    glVertex3f(28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,-2.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,1.0);
+    glVertex3f(47.0, 230.0, -2.1);
+    glVertex3f(47.0, 233.0, -2.1);
+    glVertex3f(28.0, 233.0, -16.4);
+    glVertex3f(28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,0.0);
+    glVertex3f(47.0, 230.0, -2.1);
+    glVertex3f(47.0, 230.0, -4.1);
+    glVertex3f(28.0, 230.0, -18.4);
+    glVertex3f(28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(28.0, 233.0, -16.4);
+    glVertex3f(28.0, 233.0, -18.4);
+    glVertex3f(28.0, 230.0, -18.4);
+    glVertex3f(28.0, 230.0, -16.4);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glTranslatef(0.0,0.0-i,0.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,1.0);
+    glVertex3f(47.0, 233.0, -2.1);
+    glVertex3f(47.0, 233.0, -4.1);
+    glVertex3f(47.0, 230.0, -4.1);
+    glVertex3f(47.0, 230.0, -2.1);
+    glEnd();
+    glPopMatrix();
+
     }
 
     //depan

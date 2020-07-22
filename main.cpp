@@ -56,7 +56,7 @@ void tampil(void)
 
 
     float i;
-    for(i=0.0;i<=236.0;i+=10.0){
+    for(i=0.0;i<=196.0;i+=10.0){
     //jendela
     glPushMatrix();
     glTranslatef(0.0,0.0-i,0.0);
@@ -394,59 +394,181 @@ void tampil(void)
     glPopMatrix();
 
     }
+    //Lobby
+    //atap
+    glBegin(GL_POLYGON);
+    glColor3f(0.639,0.616,0.616);
+    glVertex3f(30.0, 30.0, 28.5);
+    glVertex3f(50.0, 30.0, 28.5);
+    glVertex3f(60.0, 30.0, 18.5);
+    glVertex3f(60.0, 30.0, -18.5);
+    glVertex3f(50.0, 30.0, -28.5);
+    glVertex3f(-50.0, 30.0, -28.5);
+    glVertex3f(-60.0, 30.0, -18.5);
+    glVertex3f(-60.0, 30.0, 18.5);
+    glVertex3f(-50.0, 30.0, 28.5);
+    glVertex3f(-30.0, 30.0, 28.5);
+    glEnd();
+    //depan
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-12.0, -40.0, 13.0);
+    glVertex3f(-12.0, 30.0, 13.0);
+    glVertex3f(12.0, 30.0, 13.0);
+    glVertex3f(12.0, -40.0, 13.0);
+    glEnd();
 
+    //kiri
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-12.0, -40.0, 13.0);
+    glVertex3f(-12.0, 30.0, 13.0);
+    glVertex3f(-30.0, 30.0, 28.5);
+    glVertex3f(-30.0, -40.0, 28.5);
+    glEnd();
+
+    //kiri2
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-30.0, -40.0, 28.5);
+    glVertex3f(-30.0, 30.0, 28.5);
+    glVertex3f(-50.0, 30.0, 28.5);
+    glVertex3f(-50.0, -40.0, 28.5);
+    glEnd();
+
+    //kiri3
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-50.0, -40.0, 28.5);
+    glVertex3f(-50.0, 30.0, 28.5);
+    glVertex3f(-60.0, 30.0, 18.5);
+    glVertex3f(-60.0, -40.0, 18.5);
+    glEnd();
+    //kiri belakang
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-60.0, -40.0, 18.5);
+    glVertex3f(-60.0, 30.0, 18.5);
+    glVertex3f(-60.0, 30.0, -18.5);
+    glVertex3f(-60.0, -40.0, -18.5);
+    glEnd();
+    //Kiri belakang 1
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-60.0, -40.0, -18.5);
+    glVertex3f(-60.0, 30.0, -18.5);
+    glVertex3f(-50.0, 30.0, -28.5);
+    glVertex3f(-50.0, -40.0, -28.5);
+    glEnd();
+    //belakang
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(-50.0, -40.0, -28.5);
+    glVertex3f(-50.0, 30.0, -28.5);
+    glVertex3f(50.0, 30.0, -28.5);
+    glVertex3f(50.0, -40.0, -28.5);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(50.0, -40.0, -28.5);
+    glVertex3f(50.0, 30.0, -28.5);
+    glVertex3f(60.0, 30.0, -18.5);
+    glVertex3f(60.0, -40.0, -18.5);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(60.0, -40.0, -18.5);
+    glVertex3f(60.0, 30.0, -18.5);
+    glVertex3f(60.0, 30.0, 18.5);
+    glVertex3f(60.0, -40.0, 18.5);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(60.0, -40.0, 18.5);
+    glVertex3f(60.0, 30.0, 18.5);
+    glVertex3f(50.0, 30.0, 28.5);
+    glVertex3f(50.0, -40.0, 28.5);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(50.0, -40.0, 28.5);
+    glVertex3f(50.0, 30.0, 28.5);
+    glVertex3f(30.0, 30.0, 28.5);
+    glVertex3f(30.0, -40.0, 28.5);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(0.839,0.816,0.816);
+    glVertex3f(30.0, -40.0, 28.5);
+    glVertex3f(30.0, 30.0, 28.5);
+    glVertex3f(12.0, 30.0, 13.0);
+    glVertex3f(12.0, -40.0, 13.0);
+    glEnd();
+
+    //atap bawah
+    glBegin(GL_QUADS);
+    glColor3f(0.639,0.616,0.616);
+    glVertex3f(-25.0, 30.0, 18.0);
+    glVertex3f(-25.0, 30.0, -18.0);
+    glVertex3f(25.0, 30.0, -18.0);
+    glVertex3f(25.0, 30.0, 18.0);
+    glEnd();
     //depan
     glBegin(GL_QUADS);
     glColor3f(12/255.0f,190/255.0f,187/255.0f);
-    glVertex3f(-25.0, -40.0, 18.0);
+    glVertex3f(-25.0, 30.0, 18.0);
     glVertex3f(-25.0, 240.0, 18.0);
     glVertex3f(25.0, 240.0, 18.0);
-    glVertex3f(25.0, -40.0, 18.0);
+    glVertex3f(25.0, 30.0, 18.0);
     glEnd();
 
     //depan samping kiri
     glBegin(GL_QUADS);
     glColor3f(192/255.0f,190/255.0f,187/255.0f);
-    glVertex3f(-50.0, -40.0, 0.0);
+    glVertex3f(-50.0, 30.0, 0.0);
     glVertex3f(-50.0, 240.0, 0.0);
     glVertex3f(-25.0, 240.0, 18.0);
-    glVertex3f(-25.0, -40.0, 18.0);
+    glVertex3f(-25.0, 30.0, 18.0);
     glEnd();
 
     //depan samping kanan
     glBegin(GL_QUADS);
     glColor3f(221/255.0f,190/255.0f,187/255.0f);
-    glVertex3f(25.0, -40.0, 18.0);
+    glVertex3f(25.0, 30.0, 18.0);
     glVertex3f(25.0, 240.0, 18.0);
     glVertex3f(50.0, 240.0, 0.0);
-    glVertex3f(50.0, -40.0, 0.0);
+    glVertex3f(50.0, 30.0, 0.0);
     glEnd();
 
      //belakang
     glBegin(GL_QUADS);
     glColor3f(132/255.0f,190/255.0f,117/255.0f);
-    glVertex3f(-25.0, -40.0, -18.0);
+    glVertex3f(-25.0, 30.0, -18.0);
     glVertex3f(-25.0, 240.0, -18.0);
     glVertex3f(25.0, 240.0, -18.0);
-    glVertex3f(25.0, -40.0, -18.0);
+    glVertex3f(25.0, 30.0, -18.0);
     glEnd();
 
     //belakang samping kiri
     glBegin(GL_QUADS);
     glColor3f(189/255.0f,190/255.0f,127/255.0f);
-    glVertex3f(-50.0, -40.0, 0.0);
+    glVertex3f(-50.0, 30.0, 0.0);
     glVertex3f(-50.0, 240.0, 0.0);
     glVertex3f(-25.0, 240.0, -18.0);
-    glVertex3f(-25.0, -40.0, -18.0);
+    glVertex3f(-25.0, 30.0, -18.0);
     glEnd();
 
     //belakang samping kanan
     glBegin(GL_QUADS);
     glColor3f(116/255.0f,190/255.0f,187/255.0f);
-    glVertex3f(25.0, -40.0, -18.0);
+    glVertex3f(25.0, 30.0, -18.0);
     glVertex3f(25.0, 240.0, -18.0);
     glVertex3f(50.0, 240.0, 0.0);
-    glVertex3f(50.0, -40.0, 0.0);
+    glVertex3f(50.0, 30.0, 0.0);
     glEnd();
 
     //atap 1
@@ -582,50 +704,50 @@ void tampil(void)
     //AC
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(-13.0, 20.0, -17.9);
-    glVertex3f(15.0, 20.0, -17.9);
-    glVertex3f(15.0, 5.0, -17.9);
-    glVertex3f(-13.0, 5.0, -17.9);
+    glVertex3f(-13.0, 20.0, -28.4);
+    glVertex3f(15.0, 20.0, -28.4);
+    glVertex3f(15.0, 5.0, -28.4);
+    glVertex3f(-13.0, 5.0, -28.4);
     glEnd();
 
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(-13.0, 20.0, -12.9);
-    glVertex3f(15.0, 20.0, -12.9);
-    glVertex3f(15.0, 5.0, -12.9);
-    glVertex3f(-13.0, 5.0, -12.9);
+    glVertex3f(-13.0, 20.0, -23.4);
+    glVertex3f(15.0, 20.0, -23.4);
+    glVertex3f(15.0, 5.0, -23.4);
+    glVertex3f(-13.0, 5.0, -23.4);
     glEnd();
 
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(-13.0, 20.0, -17.9);
-    glVertex3f(-13.0, 20.0, -12.9);
-    glVertex3f(-13.0, 5.0, -12.9);
-    glVertex3f(-13.0, 5.0, -17.9);
+    glVertex3f(-13.0, 20.0, -28.4);
+    glVertex3f(-13.0, 20.0, -23.4);
+    glVertex3f(-13.0, 5.0, -23.4);
+    glVertex3f(-13.0, 5.0, -28.4);
     glEnd();
 
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(15.0, 20.0, -17.9);
-    glVertex3f(15.0, 20.0, -12.9);
-    glVertex3f(15.0, 5.0, -12.9);
-    glVertex3f(15.0, 5.0, -17.9);
+    glVertex3f(15.0, 20.0, -28.4);
+    glVertex3f(15.0, 20.0, -23.4);
+    glVertex3f(15.0, 5.0, -23.4);
+    glVertex3f(15.0, 5.0, -28.4);
     glEnd();
 
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(-13.0, 20.0, -17.9);
-    glVertex3f(15.0, 20.0, -17.9);
-    glVertex3f(15.0, 20.0, -12.9);
-    glVertex3f(-13.0, 20.0, -12.9);
+    glVertex3f(-13.0, 20.0, -28.4);
+    glVertex3f(15.0, 20.0, -28.4);
+    glVertex3f(15.0, 20.0, -23.4);
+    glVertex3f(-13.0, 20.0, -23.4);
     glEnd();
 
     glBegin(GL_QUADS);
     glColor3f(1,1,1);
-    glVertex3f(-13.0, 5.0, -17.9);
-    glVertex3f(15.0, 5.0, -17.9);
-    glVertex3f(15.0, 5.0, -12.9);
-    glVertex3f(-13.0, 5.0, -12.9);
+    glVertex3f(-13.0, 5.0, -28.4);
+    glVertex3f(15.0, 5.0, -28.4);
+    glVertex3f(15.0, 5.0, -23.4);
+    glVertex3f(-13.0, 5.0, -23.4);
     glEnd();
 
     //atap 1
@@ -707,55 +829,55 @@ void tampil(void)
     //lantai atas
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
-    glVertex3f(-80.0, -40.0, 35.0); //kiri bawah
-    glVertex3f(80.0, -40.0, 35.0); //kanan bawah
-    glVertex3f(80.0, -40.0, -35.0); //kanan atas
-    glVertex3f(-80.0, -40.0, -35.0); //kiri atas
+    glVertex3f(-100.0, -40.0, 70.0); //kiri bawah
+    glVertex3f(100.0, -40.0, 70.0); //kanan bawah
+    glVertex3f(100.0, -40.0, -70.0); //kanan atas
+    glVertex3f(-100.0, -40.0, -70.0); //kiri atas
     glEnd();
 
     //lantaibawah
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
-    glVertex3f(-80.0, -45.0, 35.0); //kiri bawah
-    glVertex3f(80.0, -45.0, 35.0); //kanan bawah
-    glVertex3f(80.0, -45.0, -35.0); //kanan atas
-    glVertex3f(-80.0, -45.0, -35.0); //kiri atas
+    glVertex3f(-100.0, -45.0, 70.0); //kiri bawah
+    glVertex3f(100.0, -45.0, 70.0); //kanan bawah
+    glVertex3f(100.0, -45.0, -70.0); //kanan atas
+    glVertex3f(-100.0, -45.0, -70.0); //kiri atas
     glEnd();
 
     //lantai depan
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
-    glVertex3f(-80.0, -45.0, 35.0); //kiri bawah
-    glVertex3f(-80.0, -40.0, 35.0); //kanan bawah
-    glVertex3f(80.0, -40.0, 35.0); //kanan atas
-    glVertex3f(80.0, -45.0, 35.0); //kiri atas
+    glVertex3f(-100.0, -45.0, 70.0); //kiri bawah
+    glVertex3f(-100.0, -40.0, 70.0); //kanan bawah
+    glVertex3f(100.0, -40.0, 70.0); //kanan atas
+    glVertex3f(100.0, -45.0, 70.0); //kiri atas
     glEnd();
 
     //lantai bagian kanan
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
-    glVertex3f(-80.0, -45.0, 35.0); //kiri bawah
-    glVertex3f(-80.0, -40.0, 35.0); //kanan bawah
-    glVertex3f(-80.0, -40.0, -35.0); //kanan atas
-    glVertex3f(-80.0, -45.0, -35.0); //kiri atas
+    glVertex3f(-100.0, -45.0, 70.0); //kiri bawah
+    glVertex3f(-100.0, -40.0, 70.0); //kanan bawah
+    glVertex3f(-100.0, -40.0, -70.0); //kanan atas
+    glVertex3f(-100.0, -45.0, -70.0); //kiri atas
     glEnd();
 
      //lantai bagian kiri
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
-    glVertex3f(80.0, -45.0, 35.0); //kiri bawah
-    glVertex3f(80.0, -40.0, 35.0); //kanan bawah
-    glVertex3f(80.0, -40.0, -35.0); //kanan atas
-    glVertex3f(80.0, -45.0, -35.0); //kiri atas
+    glVertex3f(100.0, -45.0, 70.0); //kiri bawah
+    glVertex3f(100.0, -40.0, 70.0); //kanan bawah
+    glVertex3f(100.0, -40.0, -70.0); //kanan atas
+    glVertex3f(100.0, -45.0, -70.0); //kiri atas
     glEnd();
 
     //lantai belakang
     glBegin(GL_QUADS);
     glColor3f(0,0,0);
-    glVertex3f(-80.0, -45.0, -35.0); //kiri bawah
-    glVertex3f(-80.0, -40.0, -35.0); //kanan bawah
-    glVertex3f(80.0, -40.0, -35.0); //kanan atas
-    glVertex3f(80.0, -45.0, -35.0); //kiri atas
+    glVertex3f(-100.0, -45.0, -70.0); //kiri bawah
+    glVertex3f(-100.0, -40.0, -70.0); //kanan bawah
+    glVertex3f(100.0, -40.0, -70.0); //kanan atas
+    glVertex3f(100.0, -45.0, -70.0); //kiri atas
     glEnd();
 
      // Atap Atas gedung

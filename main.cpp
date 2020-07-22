@@ -797,12 +797,13 @@ void tampil(void)
     glBegin(GL_QUADS);
     glColor3f(0.839,0.816,0.816);
     glVertex3f(70.0,400.0,-13.0);
-    glVertex3f(70.0,200.0,-13.0);
-    glVertex3f(70.0,200.0,-18.0);
+    glVertex3f(70.0,350.0,-13.0);
+    glVertex3f(70.0,350.0,-18.0);
     glVertex3f(70.0,400.0,-18.0);
     glEnd();
     glPopMatrix();
 
+    //jendela atas gedung
     glPushMatrix();
     glTranslatef(-27,52.0,0.0);
     glBegin(GL_QUADS);
@@ -901,37 +902,13 @@ void keyboard(unsigned char key,int x, int y)
     case 'A':
         glTranslatef(-3.0, 0.0, 0.0);
         break;
- //geser keatas
+ //geser bawah
     case '7':
         glTranslatef(0.0,3.0,0.0);
         break;
-    //geser kebawah
+    //geser atas
     case '9':
         glTranslatef(0.0,-3.0,0.0);
-        break;
-    //rotasi kebawah 180 derajat
-    case '2':
-        glRotatef(2.0,1.0,0.0,0.0);
-        break;
-    //rotasi keatas 180 derajat
-    case '8':
-        glRotatef(-2.0,1.0,0.0,0.0);
-        break;
-    //rotasi ke kanan 180 derajat
-    case '6':
-        glRotatef(2.0,0.0,1.0,0.0);
-        break;
-    //rotasi ke kiri 180 derajat
-    case '4':
-        glRotatef(-2.0,0.0,1.0,0.0);
-        break;
-    //rotasi 180 derajat ke kiri bagian depan
-    case '1':
-        glRotatef(2.0,0.0,0.0,1.0);
-        break;
-    //rotasi 180 derajat ke kanan bagian depan
-    case '3':
-        glRotatef(-2.0,0.0,0.0,1.0);
         break;
     //melihat bentuk rumah bagian dalam
     case '5':

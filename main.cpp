@@ -579,6 +579,55 @@ void tampil(void)
     glVertex3f(34.0, 260.1, 2.0);
     glEnd();
 
+    //AC
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-13.0, 20.0, -17.9);
+    glVertex3f(15.0, 20.0, -17.9);
+    glVertex3f(15.0, 5.0, -17.9);
+    glVertex3f(-13.0, 5.0, -17.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-13.0, 20.0, -12.9);
+    glVertex3f(15.0, 20.0, -12.9);
+    glVertex3f(15.0, 5.0, -12.9);
+    glVertex3f(-13.0, 5.0, -12.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-13.0, 20.0, -17.9);
+    glVertex3f(-13.0, 20.0, -12.9);
+    glVertex3f(-13.0, 5.0, -12.9);
+    glVertex3f(-13.0, 5.0, -17.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(15.0, 20.0, -17.9);
+    glVertex3f(15.0, 20.0, -12.9);
+    glVertex3f(15.0, 5.0, -12.9);
+    glVertex3f(15.0, 5.0, -17.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-13.0, 20.0, -17.9);
+    glVertex3f(15.0, 20.0, -17.9);
+    glVertex3f(15.0, 20.0, -12.9);
+    glVertex3f(-13.0, 20.0, -12.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-13.0, 5.0, -17.9);
+    glVertex3f(15.0, 5.0, -17.9);
+    glVertex3f(15.0, 5.0, -12.9);
+    glVertex3f(-13.0, 5.0, -12.9);
+    glEnd();
+
     //atap 1
     glBegin(GL_POLYGON);
     glColor3f(116/255.0f,110/255.0f,187/255.0f);

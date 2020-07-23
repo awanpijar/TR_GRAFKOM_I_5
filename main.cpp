@@ -37,6 +37,7 @@ int main (int argc, char **argv)
 void init(void)
 {
     glClearColor(1.0, 1.0, 1.0, 0.0);
+    glViewport(10,10,800,600);
     glMatrixMode(GL_PROJECTION);
     glEnable(GL_COLOR_MATERIAL);
     glEnable(GL_DEPTH_TEST);

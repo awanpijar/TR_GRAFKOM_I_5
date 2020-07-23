@@ -23,7 +23,7 @@ int main (int argc, char **argv)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(800, 600);
     glutInitWindowPosition(250, 150);
-    glutCreateWindow("Testing");
+    glutCreateWindow("TR-Grafkom-I-Kelompok-5");
     init();
     glutDisplayFunc(tampil);
     glutKeyboardFunc(keyboard);
@@ -48,10 +48,10 @@ void init(void)
 
 void tampil(void)
 {
-      glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-         glPushMatrix();
-        glRotatef(xrot, 1.0f,0.0f,0.0f);
-        glRotatef(yrot, 0.0f, 1.0f,0.0f);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glPushMatrix();
+    glRotatef(xrot, 1.0f,0.0f,0.0f);
+    glRotatef(yrot, 0.0f, 1.0f,0.0f);
 
 
     float i;

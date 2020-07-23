@@ -1119,6 +1119,24 @@ void tampil(void)
     glEnd();
     glPopMatrix();
 
+    //tower gedung atas
+    glPushMatrix();
+	glEnable(GL_COLOR_MATERIAL);
+	glColor3f(0.961,0.792,0.431);
+	glTranslatef(3, 300, 3.5);
+	glScalef(10, -400, 30);
+	glutSolidCube(0.1);
+	glDisable(GL_COLOR_MATERIAL);
+	glPopMatrix();
+
+	glPushMatrix();
+	glEnable(GL_COLOR_MATERIAL);
+	glColor3f(0.961,0.792,0.431);
+	glTranslatef(3, 300, -4.5);
+	glScalef(10, -400, 30);
+	glutSolidCube(0.1);
+	glDisable(GL_COLOR_MATERIAL);
+	glPopMatrix();
 
 
 

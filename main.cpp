@@ -1936,6 +1936,60 @@ void tampil(void)
 	glDisable(GL_COLOR_MATERIAL);
 	glPopMatrix();
 
+	//Bendera UAE
+	glPushMatrix();
+	glEnable(GL_COLOR_MATERIAL);
+	glColor3f(0.89,0.49,0.067);
+	glTranslatef(-80, -15, 50);
+	glScalef(10, 510,10);
+	glutSolidCube(0.1);
+	glDisable(GL_COLOR_MATERIAL);
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(-90,-72,20.0);
+    glBegin(GL_QUADS);
+    glColor3f(1.0,0.0,0.0);
+    glVertex3f(10.0,70.0,30.5);
+    glVertex3f(10.0,80.0,30.5);
+    glVertex3f(15.0,80.0,30.5);
+    glVertex3f(15.0,70.0,30.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+	glTranslatef(-86,-68,20.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.020,0.384,0.063);
+    glVertex3f(10.0,73.0,30.5);
+    glVertex3f(10.0,76.0,30.5);
+    glVertex3f(25.0,76.0,30.5);
+    glVertex3f(25.0,73.0,30.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+	glTranslatef(-86,-71,20.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.871,0.914,0.839);
+    glVertex3f(10.0,72.0,30.5);
+    glVertex3f(10.0,76.0,30.5);
+    glVertex3f(25.0,76.0,30.5);
+    glVertex3f(25.0,72.0,30.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+	glTranslatef(-86,-75,20.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(10.0,73.0,30.5);
+    glVertex3f(10.0,76.0,30.5);
+    glVertex3f(25.0,76.0,30.5);
+    glVertex3f(25.0,73.0,30.5);
+    glEnd();
+    glPopMatrix();
+
 
     glPopMatrix();
     glutSwapBuffers();

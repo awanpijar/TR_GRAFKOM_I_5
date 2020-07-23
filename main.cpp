@@ -1138,6 +1138,24 @@ void tampil(void)
 	glDisable(GL_COLOR_MATERIAL);
 	glPopMatrix();
 
+    //TV
+    glPushMatrix();
+	glEnable(GL_COLOR_MATERIAL);
+	glColor3f(0.0,0.0,0.0);
+	glTranslatef(-55, -9, -1.5);
+	glScalef(10, -260, 390);
+	glutSolidCube(0.1);
+	glDisable(GL_COLOR_MATERIAL);
+	glPopMatrix();
+
+	 glPushMatrix();
+	glEnable(GL_COLOR_MATERIAL);
+	glColor3f(1.0,1.0,1.0);
+	glTranslatef(-54, -9, -1.5);
+	glScalef(4, -230,380);
+	glutSolidCube(0.1);
+	glDisable(GL_COLOR_MATERIAL);
+	glPopMatrix();
 
 
     glPopMatrix();

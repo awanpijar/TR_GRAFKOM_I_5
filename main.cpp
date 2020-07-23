@@ -1019,6 +1019,85 @@ void tampil(void)
     glEnd();
     glPopMatrix();
 
+    //jendela lobby bawah
+    glPushMatrix();
+     glTranslatef(-27,-180.0,3.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(15.0,200.0,10.5);
+    glVertex3f(15.0,190.0,10.5);
+    glVertex3f(39.0,190.0,10.5);
+    glVertex3f(39.0,200.0,10.5);
+    glEnd();
+    glPopMatrix();
+
+     glPushMatrix();
+     glTranslatef(-4,-180.0,5.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(15.0,200.0,8.5);
+    glVertex3f(15.0,190.0,8.5);
+    glVertex3f(35.0,190.0,24.5);
+    glVertex3f(35.0,200.0,24.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+     glTranslatef(15,-180.0,4.3);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(15.0,200.0,24.5);
+    glVertex3f(15.0,190.0,24.5);
+    glVertex3f(36.0,190.0,24.5);
+    glVertex3f(36.0,200.0,24.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+     glTranslatef(36,-180.0,4.3);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(15.0,200.0,24.5);
+    glVertex3f(15.0,190.0,24.5);
+    glVertex3f(26.0,190.0,12.5);
+    glVertex3f(26.0,200.0,12.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+     glTranslatef(-32,-180.0,0.5);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(2.0,200.0,29.5);
+    glVertex3f(2.0,190.0,29.5);
+    glVertex3f(21.0,190.0,12.5);
+    glVertex3f(21.0,200.0,12.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+     glTranslatef(-65,-180.0,4.3);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(15.0,200.0,24.5);
+    glVertex3f(15.0,190.0,24.5);
+    glVertex3f(36.5,190.0,24.5);
+    glVertex3f(36.5,200.0,24.5);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+     glTranslatef(-76,-180.0,5.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(15.0,200.0,12.5);
+    glVertex3f(15.0,190.0,12.5);
+    glVertex3f(26.1,190.0,24.0);
+    glVertex3f(26.1,200.0,24.0);
+    glEnd();
+    glPopMatrix();
+
+
     glPopMatrix();
     glutSwapBuffers();
 }

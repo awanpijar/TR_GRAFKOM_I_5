@@ -1019,7 +1019,7 @@ void tampil(void)
     glEnd();
     glPopMatrix();
 
-    //jendela lobby bawah
+    //jendela ventilasi lobby
     glPushMatrix();
      glTranslatef(-27,-180.0,3.0);
     glBegin(GL_QUADS);
@@ -1096,6 +1096,30 @@ void tampil(void)
     glVertex3f(26.1,200.0,24.0);
     glEnd();
     glPopMatrix();
+
+     glPushMatrix();
+     glTranslatef(34.5,-180.0,2.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(26.0,200.0,-16.5);
+    glVertex3f(26.0,190.0,-16.5);
+    glVertex3f(26.0,190.0,16.5);
+    glVertex3f(26.0,200.0,16.5);
+    glEnd();
+    glPopMatrix();
+
+     glPushMatrix();
+     glTranslatef(-86.2,-180.0,2.0);
+    glBegin(GL_QUADS);
+    glColor3f(0.0,0.0,0.0);
+    glVertex3f(26.0,200.0,-16.5);
+    glVertex3f(26.0,190.0,-16.5);
+    glVertex3f(26.0,190.0,16.5);
+    glVertex3f(26.0,200.0,16.5);
+    glEnd();
+    glPopMatrix();
+
+
 
 
     glPopMatrix();
